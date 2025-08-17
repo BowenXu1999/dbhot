@@ -1,0 +1,19 @@
+# KOL影响力分析流水线依赖包如下:
+# 安装命令: pip install -r requirements-pipeline.txt
+
+# 数据处理:
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 数据库连接
+psycopg[binary]>=3.1.0
+psycopg-pool>=3.1.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# 日志和工具
+tqdm>=4.65.0
+
+# 数据验证
+jsonschema>=4.17.0

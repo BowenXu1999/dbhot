@@ -1,0 +1,60 @@
+2025-08-07 18:41:32,303 - INFO - Demo pipeline initialized with output directory: demo_outputs
+2025-08-07 18:41:32,303 - INFO - Starting KOL influence analysis demo pipeline...
+2025-08-07 18:41:32,303 - INFO - Step 1: Validating existing data file...
+2025-08-07 18:41:34,417 - INFO - Found 1788527 records for 57339 unique KOLs
+2025-08-07 18:41:34,453 - INFO - Step 2: Analyzing influence scores...
+2025-08-07 18:41:36,474 - INFO - Loaded 1788527 records for analysis
+2025-08-07 18:41:38,103 - INFO - After filtering to latest month: 1762231 records
+2025-08-07 18:41:39,482 - INFO - After follower filtering: 57339 KOL-channel combinations
+2025-08-07 18:41:40,002 - INFO - Analysis complete - Top 2000 KOLs saved to: demo_outputs/demo_top_2000_kol_rankings_20250807_184132.csv
+2025-08-07 18:41:40,002 - INFO - Detailed analysis saved to: demo_outputs/demo_detailed_analysis_20250807_184132.csv
+2025-08-07 18:41:40,002 - INFO - Total distinct KOLs analyzed: 57339
+2025-08-07 18:41:40,002 - INFO - Top 10 KOLs by influence score:
+2025-08-07 18:41:40,002 - INFO -    1. d7f116e3-475e-47de-b1e8-13625ad7a870 (score: 21.0550)
+2025-08-07 18:41:40,002 - INFO -    2. 9cdc7270-3dcb-466f-8139-bbb6797f091b (score: 13.9911)
+2025-08-07 18:41:40,002 - INFO -    3. 4699feb3-f82f-4fed-9f50-197ba835840e (score: 13.6119)
+2025-08-07 18:41:40,002 - INFO -    4. ed075f32-aef2-45a1-b30f-4590cd6f0baf (score: 13.5280)
+2025-08-07 18:41:40,002 - INFO -    5. 2700eb0b-7817-4b9e-a9c2-4278e5e597fd (score: 13.0805)
+2025-08-07 18:41:40,002 - INFO -    6. 5c12cdc9-9ff5-44b9-abf4-248535e5c139 (score: 12.4728)
+2025-08-07 18:41:40,002 - INFO -    7. 069ebe9c-399e-4e28-a751-3735b816a1ca (score: 11.7859)
+2025-08-07 18:41:40,002 - INFO -    8. d555dacd-c315-422c-92a0-f0a43582de9a (score: 11.7616)
+2025-08-07 18:41:40,002 - INFO -    9. 2f53441f-b1f2-488d-93b9-5088ea048a6e (score: 11.4812)
+2025-08-07 18:41:40,002 - INFO -   10. 0cfb3ce1-162b-4e1a-94ba-f2a8e9f20cd1 (score: 11.4490)
+2025-08-07 18:41:40,033 - INFO - Step 3: Generating demo report...
+2025-08-07 18:41:42,166 - INFO - Demo report generated: demo_outputs/demo_analysis_report_20250807_184132.txt
+2025-08-07 18:41:42,203 - INFO - ================================================================================
+2025-08-07 18:41:42,203 - INFO - 🎉 Demo pipeline execution completed successfully!
+2025-08-07 18:41:42,203 - INFO - ================================================================================
+2025-08-07 18:41:42,203 - INFO - 📊 Rankings file: demo_outputs/demo_top_2000_kol_rankings_20250807_184132.csv
+2025-08-07 18:41:42,203 - INFO - 📋 Demo report: demo_outputs/demo_analysis_report_20250807_184132.txt
+2025-08-07 18:41:42,203 - INFO - 📝 Log file: demo_pipeline.log
+2025-08-08 20:58:59,867 - INFO - Demo pipeline initialized with output directory: demo_outputs
+2025-08-08 20:58:59,867 - INFO - Starting KOL influence analysis demo pipeline...
+2025-08-08 20:58:59,867 - INFO - Step 1: Validating existing data file...
+2025-08-08 20:59:02,756 - INFO - Found 1788527 records for 57339 unique KOLs
+2025-08-08 20:59:02,811 - INFO - Step 2: Analyzing influence scores...
+2025-08-08 20:59:04,897 - INFO - Loaded 1788527 records for analysis
+2025-08-08 20:59:06,625 - INFO - After filtering to latest month: 1762231 records
+2025-08-08 20:59:07,993 - INFO - After follower filtering: 57339 KOL-channel combinations
+2025-08-08 20:59:08,503 - INFO - Analysis complete - KOL rankings 2001 to 2200 saved to: demo_outputs/demo_kol_rankings_2001_to_2200_20250808_205859.csv
+2025-08-08 20:59:08,503 - INFO - Detailed analysis saved to: demo_outputs/demo_detailed_analysis_20250808_205859.csv
+2025-08-08 20:59:08,503 - INFO - Total distinct KOLs analyzed: 57339
+2025-08-08 20:59:08,503 - INFO - Top 10 KOLs in ranks 2001-2200 by influence score:
+2025-08-08 20:59:08,503 - INFO -   2001. 80103ddf-0798-4fca-a86f-836fd5f71580 (score: 3.8564)
+2025-08-08 20:59:08,503 - INFO -   2002. d824c59c-93a1-4d84-8d0b-c38927219450 (score: 3.8561)
+2025-08-08 20:59:08,503 - INFO -   2003. 8cf428a9-572f-4477-a282-ee4e714b445c (score: 3.8558)
+2025-08-08 20:59:08,503 - INFO -   2004. 747620d1-7c30-4bd0-ba3f-9c4e12bebd82 (score: 3.8557)
+2025-08-08 20:59:08,503 - INFO -   2005. 5e8c32de-f129-4dea-a738-6d8d0581d55b (score: 3.8555)
+2025-08-08 20:59:08,503 - INFO -   2006. a1e03ada-c5a7-4215-8125-f8157b5519f3 (score: 3.8551)
+2025-08-08 20:59:08,504 - INFO -   2007. 190c00ce-c229-4b7e-a29b-8fe294614a11 (score: 3.8548)
+2025-08-08 20:59:08,504 - INFO -   2008. bdac1988-825c-4253-b25d-61020347effc (score: 3.8548)
+2025-08-08 20:59:08,504 - INFO -   2009. 5c615557-30fa-4602-9505-08bbf0005653 (score: 3.8545)
+2025-08-08 20:59:08,504 - INFO -   2010. ded683c9-bf89-4a74-b651-a96bde8bd6d8 (score: 3.8543)
+2025-08-08 20:59:08,553 - INFO - Step 3: Generating demo report...
+2025-08-08 20:59:10,981 - INFO - Demo report generated: demo_outputs/demo_analysis_report_20250808_205859.txt
+2025-08-08 20:59:11,032 - INFO - ================================================================================
+2025-08-08 20:59:11,033 - INFO - 🎉 Demo pipeline execution completed successfully!
+2025-08-08 20:59:11,033 - INFO - ================================================================================
+2025-08-08 20:59:11,033 - INFO - 📊 Rankings file: demo_outputs/demo_kol_rankings_2001_to_2200_20250808_205859.csv
+2025-08-08 20:59:11,033 - INFO - 📋 Demo report: demo_outputs/demo_analysis_report_20250808_205859.txt
+2025-08-08 20:59:11,033 - INFO - 📝 Log file: demo_pipeline.log
